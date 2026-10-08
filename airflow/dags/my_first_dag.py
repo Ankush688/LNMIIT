@@ -6,9 +6,6 @@ from airflow.sdk import dag,task
 
 def first_my_dag():
 
-    @task
-    def first_task():
-        print("Pehle ghar jaao")
 
     @task
     def second_task():
